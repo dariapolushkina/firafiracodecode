@@ -1,0 +1,1090 @@
+@import url(font/FiraCode-Bold.ttf);
+@import url(font/FiraCode-Light.ttf);
+@import url(font/FiraCode-Medium.ttf);
+@import url(font/FiraCode-Regular.ttf);
+@import url(font/FiraCode-Retina.ttf);
+@import url(font/FiraCode-SemiBold.ttf);
+
+
+*{ box-sizing: border-box;
+    color: white;
+}
+h2{
+    font-family: 'FiraCode-Medium';
+    font-size: 63px;
+    font-weight: normal;
+    color: #45444C;
+}
+
+h3{
+    font-family: 'FiraCode-Medium';
+    font-size: 36px;
+    font-weight: normal;
+}
+
+b{
+    font-family: 'firacode-medium';
+    font-weight: normal;
+}
+body{
+    background-color: #313039;
+}
+
+.instrument1{
+    margin-top: 105px;
+    display: flex;
+    justify-content: center;
+}
+
+.instrument1frame{
+    display: flex;
+    justify-content: center;
+    width: 1047px;
+    height: 1007px;
+    background-color: #45444C;
+    border: 6px solid white ;
+    border-radius: 30px;
+}
+
+.instrument1whiteframe{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 976px;
+    height: 895px;
+    background-color: white;
+    border: 6px solid white ;
+    border-radius: 30px;
+}
+
+.monoshrift {
+    width: 775px;
+    height: 83px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.instrument1frame2{
+    margin-top: -10px;
+    width: 976px;
+    height: 814px;
+    background-color: #57565F;
+    border: 6px solid white ;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.instrument1content{
+    width: 781px;
+    height: 847px;
+}
+
+.krutilki{
+    margin-top: 72px;
+    height: 213px;
+}
+
+.FIRACODE{
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 6px solid white;
+    height: 170px;
+    background-color: #45444C;
+}
+
+.FIRACODEtext{
+    font-family: 'FiraCode-Semibold';
+    font-size: 126px;
+}
+
+.niz{
+    margin-top: 45px;
+    height: 178px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.version{
+    margin-top: 75px;
+    font-size: 36px;
+    font-family: 'FiraCode-Regular';
+    line-height: 12px;
+}
+
+.output{
+    margin-top: 20px;
+}
+
+.instrument2{
+    margin-top: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.instrument2frame{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 1090px;
+    height: 1290px;
+    background-color: #45444C;
+    border: 6px solid white ;
+    border-radius: 30px;
+}
+
+.instrument2frame2{
+    display: flex;
+    justify-content: center;
+    width: 997px;
+    height: 1137px;
+    background-color: #57565F;
+    border: 6px solid white ;
+    border-radius: 82px;
+    margin-top: -30px;
+}
+
+.instrument2content{
+    width: 781px;
+    display: flex;
+    flex-direction: column;
+}
+
+.osobennosti{
+    font-family: 'FiraCode-Medium';
+    font-size: 63px;
+    margin-top: 40px;
+    margin-left: 22px;
+}
+
+.instrument2content2{
+    width: 676px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box12345{
+    margin-top: 114px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 36px;
+    font-family: 'FiraCode-Regular';
+}
+
+.verticalnyebox{
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vertical{
+    border: 6px solid white;
+    border-radius: 13px;
+    width: 23px;
+    height: 331px;
+}
+
+.bukvy{
+    margin-top: -265px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'FiraCode-Medium';
+    font-size: 148px;
+    text-align: center;
+}
+
+.bukvy > *{
+    background-color: #45444C;
+    border: 6px solid white;
+    border-radius: 19px;
+    width: 125px;
+}
+
+.bC{ 
+    height: 156px;
+    margin-top: 9px;
+}
+
+.bI{
+    height: 156px;
+}
+
+
+.bB{
+    height: 198px;
+    margin-top: 22px;
+}    
+
+.bO{
+    height: 156px;
+    margin-top: 46px;
+}
+
+.bR{
+    height: 198px;
+    margin-top: 5px;
+} 
+
+
+.bG{
+    height: 156px;
+    margin-top: 5px;
+}
+
+.bukva{
+    margin-top: -35px;
+}
+
+.bukvab{
+    margin-top: -5px;
+}
+
+.niz2{
+    margin-top: 105px;
+}
+
+.krutilk{
+    background-color: #45444C;
+    border: 6px solid white;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.krutilkinside{
+    background-color: #57565F;
+    border: 6px solid white;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    margin-top: -30px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.minipipka{
+    width: 25px;
+    height: 10px;
+    border: 7px solid white;
+    border-radius: 6px;
+    rotate: 50deg;
+    margin-top: 75px;
+    margin-right: 10px;
+}
+
+.text123box{
+    width: 650px;
+    margin-top: -160px;
+    margin-left: 267px;
+}
+
+.text123{
+    font-family: 'FiraCode-Regular';
+    font-size: 36px;
+    line-height: 12px;
+}
+
+.line{
+    margin-top: -8px;
+    margin-left: 180px;
+    height: 4px;
+    width: 602px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.line45{
+    margin-top: -15px;
+    margin-left: 155px;
+    height: 4px;
+    width: 33px;
+    rotate: 50deg;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.niz22{
+    margin-top: 45px;
+    margin-left: -100px;
+}
+
+.krutilk2{
+    background-color: #45444C;
+    border: 6px solid white;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 235px;
+}
+
+.krutilkinside2{
+    background-color: #57565F;
+    border: 6px solid white;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    margin-top: -30px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.minipipka2{
+    width: 25px;
+    height: 10px;
+    border: 6px solid white;
+    border-radius: 6px;
+    rotate: 50deg;
+    margin-top: 75px;
+    margin-right: 10px;
+}
+
+.text45box{
+    width: 650px;
+    margin-top: -109px;
+    margin-left: 500px;
+}
+
+.text45{
+    font-family: 'FiraCode-Regular';
+    font-size: 36px;
+    line-height: 12px;
+
+}
+
+.line2{
+    margin-top: -5px;
+    margin-left: 415px;
+    height: 4px;
+    width: 467px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.line452{
+    margin-top: -15px;
+    margin-left: 390px;
+    height: 4px;
+    width: 33px;
+    rotate: 50deg;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.instrument3{
+    margin-top: 690px;
+    display: flex;
+    justify-content: center;
+}
+
+.instrument3frame{
+    width: 1042px;
+    opacity: 50%;
+    height: 2172px;
+    background-color: #45444C;
+    border: 6px solid white ;
+    border-radius: 30px;
+}
+.osobennosti2box{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 75px;
+    font-family: 'FiraCode-Medium';
+    font-size: 63px;
+}
+.instrument3frame2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 955px;
+}
+
+.instrument3content{
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.instrument31{
+    display: flex;
+    flex-direction: column;
+    width: 960px;
+    height: 1867px;
+    background-image: url(/images/syje\ screen\ \(4\).svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.t2textblocks{
+    margin-top: 35px;
+    margin-left: 360px;
+    width: 500px;
+    height: 265px;
+    font-family: 'FiraCode-Regular';
+    font-size: 36px;
+    line-height: 47px;
+    padding-bottom: 855px;
+}
+
+.t2textblock{
+    margin-top: 83px;
+}
+
+.t3textblocks{
+    margin-top: 85px;
+    margin-left: -55px;
+    width: 300px;
+    font-family: 'FiraCode-Regular';
+    font-size: 36px;
+    line-height: 47px;
+    text-align: right;
+}
+
+.syjetext{
+    margin-top: 20px;
+    margin-left: -305px;
+    width: 507px;
+    height: 300px;
+    position: relative;
+}
+
+.nez{
+    float: left;
+}
+
+.otk{
+    float: right;
+    margin-top: 150px;
+}
+
+
+.bloki-texta{
+    width: 813px;
+    margin-top: 220px;
+    margin-left: 70px;
+}
+
+.vneshnie * {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    height: 96px;
+    background-color: #45444C;
+    border: 6px solid white;
+    border-radius: 32px;
+}
+
+.vneshnie .vnutr{
+    border: none;
+}
+
+.ud{
+    width: 304px;
+}
+
+.comb{
+    margin-top: 84px;
+    margin-left: 125px;
+    width: 424px;
+}
+
+.spec{
+    margin-top: 84px;
+    margin-left: 270px;
+    width: 465px;
+}
+
+.simv{
+    margin-top: 84px;
+    width: 347px;
+}
+
+.vnutr{
+    display: flex;
+    justify-content: left;
+}
+.vnutr * {
+    margin-left: -5px;
+    margin-top: -5px;
+    height: 83px;
+    font-family: 'firacode-regular';
+    font-size: 63px;
+    text-align: center;
+    border: 6px solid white;
+    justify-content: center;
+    background-color: #57565F;
+}
+.ud1{
+    width: 295px;
+}
+
+.comb1{
+    width: 412px;
+}
+
+.spec1{
+    width: 451px;
+}
+
+.simv1{
+    width: 337px;
+}
+
+.instrument4{
+    margin-left: -140px;
+    margin-top: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.instrument4frame{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 914px;
+    height: 1051px;
+    background-color: #45444C;
+    border: 6px solid white ;
+    border-radius: 69px;
+}
+
+.instrument4frame2{
+    display: flex;
+    justify-content: center;
+    width: 864px;
+    height: 919px;
+    background-color: #57565F;
+    border: 6px solid white ;
+    border-radius: 61px;
+    margin-top: -70px;
+}
+
+.instrument4content{
+    margin-right: auto;
+    margin-left: auto;
+    display:flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 642px;
+    height: 800px;
+    background-image: url(/images/linii.svg);
+    background-position: center 100px;
+    background-repeat: no-repeat;
+}
+
+.instrument4nas{
+    font-family: 'FiraCode-Medium';
+    font-size: 63px;
+    display: flex;
+    justify-content: space-between;
+    gap: 75px;
+}
+
+.ekrutilki{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.ekrutilka{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    height: 304px;
+    font-family: 'FiraCode-Light';
+    font-size: 36px;
+}
+
+.ek1{
+    width: 182px;
+    height: 178px;
+    border: 6px solid white;
+    border-radius: 50%;
+    background-color: #45444C;
+}
+
+.ek2{
+    margin-left: 1px;
+    margin-top: -5px;
+    width: 163px;
+    height: 163px;
+    border: 6px solid white;
+    border-radius: 50%;
+    background-color: #57565F;
+    display: flex;
+    justify-content: center;
+}
+
+.ek3{
+    width: 182px;
+    height: 178px;
+    border: 6px solid white;
+    border-radius: 50%;
+    background-color: #313039;
+}
+.ek4{
+    margin-left: 1px;
+    margin-top: -5px;
+    width: 163px;
+    height: 163px;
+    border: 6px solid white;
+    border-radius: 50%;
+    background-color: #45444C;
+    display: flex;
+    justify-content: center;
+}
+
+.erectan{
+    margin-top: -40px;
+    width: 81px;
+    height: 140px;
+    border-radius: 25px;
+    border: 6px solid white;
+    background-color: #313039;
+    display: flex;
+    justify-content: center;
+}
+.e1{
+    font-family: 'FiraCode-Light';
+    font-size: 63px;
+}
+
+
+.e2{
+    font-family: 'FiraCode-Regular';
+    font-size: 63px;
+}
+
+
+.e3{
+    font-family: 'FiraCode-Retina';
+    font-size: 63px;
+}
+
+.ekrutilka2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    height: 304px;
+    font-family: 'FiraCode-Regular';
+    font-size: 36px;
+}
+
+.ekrutilka3{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    height: 304px;
+    font-family: 'FiraCode-Retina';
+    font-size: 36px;
+}
+
+.ekrutilki2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.e4{
+    font-family: 'FiraCode-Medium';
+    font-size: 63px;
+}
+
+
+.e5{
+    font-family: 'FiraCode-Semibold';
+    font-size: 63px;
+}
+
+
+.e6{
+    font-family: 'FiraCode-Bold';
+    font-size: 63px;
+}
+
+.ekrutilka4{
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    height: 304px;
+    font-family: 'FiraCode-Medium';
+    font-size: 36px;
+}
+
+.ekrutilka5{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    height: 304px;
+    font-family: 'FiraCode-Semibold';
+    font-size: 36px;
+}
+
+.ekrutilka6{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    height: 304px;
+    font-family: 'FiraCode-Bold';
+    font-size: 36px;
+}
+
+.instrument5{
+    margin-top: 9px;
+    display: flex;
+    justify-content: center;
+}
+.instrument5frame{
+    width: 1082px;
+    height: 749px;
+    border: 6px solid white;
+    border-radius: 30px;
+    background-color: #45444C;
+}
+
+.os_adapt{
+    margin-top: 15px;
+    margin-left:100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    font-family: 'FiraCode-Medium';
+    font-size: 63px;
+    width: 918px;
+    height: 113px;
+}
+
+.instrument5frame2{
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1018px;
+    height: 587px;
+    border: 6px solid white;
+    background-color: #57565F;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.instrument51frame{
+    margin-top: 20px;
+    width: 950px;
+    height: 185px;
+    border-radius: 20px;
+    border: 6px solid #45444C;
+    display: flex;
+    justify-content: center;
+}
+
+.instrument51{
+    margin-top: 5px;
+    width: 879px;
+    background-image: url(/images/fiji.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.fijiline{
+    margin-left: 5px;
+    margin-top: 47px;
+    width: 470px;
+    height: 18px;
+    opacity: 50%;
+    background-color: white;
+}
+
+.fltlline{
+    margin-left: 100px;
+    margin-top: -55px;
+    width: 765px;
+    height: 20px;
+    opacity: 50%;
+    background-color: white;
+}
+
+.instrument52{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    width: 900px;
+    height: 110px;
+}
+.instrument53{
+    margin-top: 29px;
+    width: 950px;
+    height: 39px;
+    border: 6px solid #45444C;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.instrument54{
+    margin-top: 10px;
+    width: 950px;
+    height: 155px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.instrument6{
+    margin-top: 9px;
+    display: flex;
+    justify-content: center;
+}
+
+.instrument6frame{
+    width: 1061px;
+    height: 1212px;
+    border-radius: 22px;
+    border: 6px solid white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #45444C;
+}
+
+.os_lig{
+    margin-top: 75px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    font-family: 'FiraCode-Medium';
+    font-size: 63px;
+    width: 870px;
+    height: 95px;
+}
+
+.instrument6frame2{
+    width: 959px;
+    height: 792px;
+    border-radius: 53px;
+    border: 6px solid white;
+    background-color: #57565F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.instrument6content1{
+    margin-top: 80px;
+    width: 882px;;
+    height: 530px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.big_lig{
+    width: 271px;
+    height: 455px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'FiraCode-Regular';
+    font-size: 63px;
+}
+
+.small_circle_up{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: 6px solid #45444C;
+    border-radius: 50px;
+}
+
+.big_circle{
+    margin-top: 10px;
+    width: 271px;
+    height: 271px;
+    background-color: #45444C;
+    border: 6px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big_circle2{
+    width: 197px;
+    height: 197px;
+    background-color: #57565F;
+    border: 6px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.small_circles{
+    margin-top: -5%;
+    width: 245px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.small_circle_left{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: 6px solid #45444C;
+    border-radius: 50px;
+}
+
+.small_circle_right{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: 6px solid #45444C;
+    border-radius: 50px;
+}
+
+.lig_text{
+    margin-top: 25px;
+}
+
+
+.lat_lig{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'FiraCode-Regular';
+    font-size: 63px;
+    margin-top: -45px;
+    width: 271px;
+    height: 500px;
+}
+.green_lamp{
+    width: 58px;
+    height: 58px;
+    background-color: #A2FF88;
+    border: 6px solid white;
+    border-radius: 50px;
+}
+
+.green_lamp{
+    animation-name: color_change;
+	animation-duration: 0.6s;
+	animation-iteration-count: infinite;
+    transition: color_change 2s ease-out;
+	animation-direction: alternate;
+}
+
+@keyframes color_change {
+	from { background-color: #A2FF88; }
+	to { background-color: #ABAAAF; }
+}
+
+.lat_text{
+    padding-top: 105px;
+    padding-bottom: 10px;
+}
+
+.medium_circle{
+    width: 236px;
+    height: 236px;
+    background-color: #45444C;
+    border: 6px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.medium_circle2{
+    width: 171px;
+    height: 171px;
+    background-color: #45444C;
+    border: 6px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.greek_lig{
+    width: 271px;
+    height: 451px;
+    background-color: rgb(122, 134, 135);
+}
+
+.inside_lig_text{
+    font-family: 'FiraCode-Medium';
+    font-size: 126px;
+}
+
+.dj{
+    rotate: 20deg;
+}
+
+.aa{
+    rotate: -15deg;
+}
+
+.instrument6content_lines{
+    margin-top: -35px;
+    width: 950px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.line61{
+    height: 6px;
+    width: auto;
+    background-color: white;
+}
+
+.line62{
+    height: 6px;
+    width: auto;
+    background-color: white;
+}
+.instrument6hdmi{
+    width: 950px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+}
+
+.wire1{
+    margin-left: -15px;
+    margin-top: -1580px;
+}
