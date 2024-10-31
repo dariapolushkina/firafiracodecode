@@ -585,7 +585,7 @@ body{
     margin-top: 50px;
     width: 642px;
     height: 800px;
-    background-image: url("images/lines.svg");
+    background-image: url("../images/lines.svg");
     background-position: center 100px;
     background-repeat: no-repeat;
 }
