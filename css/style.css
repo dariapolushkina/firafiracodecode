@@ -4,6 +4,7 @@
 @import url(font/FiraCode-Regular.ttf);
 @import url(font/FiraCode-Retina.ttf);
 @import url(font/FiraCode-SemiBold.ttf);
+@import url(reset.css);
 
 
 *{ box-sizing: border-box;
@@ -26,8 +27,11 @@ b{
     font-family: 'firacode-medium';
     font-weight: normal;
 }
+
 body{
     background-color: #313039;
+    height: 8900px;
+    line-height: normal;
 }
 
 .instrument1{
@@ -239,6 +243,8 @@ body{
 
 .bukva{
     margin-top: -35px;
+    display: grid;
+    place-items: center;
 }
 
 .bukvab{
@@ -392,7 +398,6 @@ body{
 
 .instrument3frame{
     width: 1042px;
-    opacity: 50%;
     height: 2172px;
     background-color: #45444C;
     border: 6px solid white ;
@@ -550,8 +555,8 @@ body{
 }
 
 .instrument4{
-    margin-left: -140px;
-    margin-top: 9px;
+    margin-left: -120px;
+    margin-top: -4322px;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -562,7 +567,7 @@ body{
     justify-content: center;
     align-items: center; 
     width: 914px;
-    height: 1051px;
+    height: 1040px;
     background-color: #45444C;
     border: 6px solid white ;
     border-radius: 69px;
@@ -576,7 +581,7 @@ body{
     background-color: #57565F;
     border: 6px solid white ;
     border-radius: 61px;
-    margin-top: -70px;
+    margin-top: -60px;
 }
 
 .instrument4content{
@@ -759,7 +764,7 @@ body{
 }
 
 .instrument5{
-    margin-top: 9px;
+    margin-top: 1068px;
     display: flex;
     justify-content: center;
 }
@@ -989,9 +994,20 @@ body{
     width: 271px;
     height: 500px;
 }
+
+.green_lamp_outside{
+    width: 68px;
+    height: 68px;
+    background-color: #313039;
+    border: 6px solid white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .green_lamp{
-    width: 58px;
-    height: 58px;
+    width: 43px;
+    height: 43px;
     background-color: #A2FF88;
     border: 6px solid white;
     border-radius: 50px;
@@ -1087,4 +1103,14 @@ body{
 .wire1{
     margin-left: -15px;
     margin-top: -1580px;
+}
+
+.bok_wires{
+    scale: 101%;
+    margin-top: -3124px;
+}
+
+.zelenka{
+    margin-top: -4229px;
+    margin-left: -4px;
 }
