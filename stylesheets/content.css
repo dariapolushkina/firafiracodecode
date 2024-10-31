@@ -427,7 +427,7 @@ body{
     flex-direction: column;
     width: 960px;
     height: 1867px;
-    background-image: url(images/syje\ screen\ \(4\).svg);
+    background-image: url(./images/syje\ screen\ \(4\).svg);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -585,7 +585,7 @@ body{
     margin-top: 50px;
     width: 642px;
     height: 800px;
-    background-image: url(images/linii.svg);
+    background-image: url(./images/linii.svg);
     background-position: center 100px;
     background-repeat: no-repeat;
 }
@@ -808,7 +808,7 @@ body{
 .instrument51{
     margin-top: 5px;
     width: 879px;
-    background-image: url(images/fiji.svg);
+    background-image: url(./images/fiji.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
